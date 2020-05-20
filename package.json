@@ -1,0 +1,17 @@
+{
+  "name": "serverless-jam",
+  "version": "1.0.0",
+  "description": "Actually I'm using Node.js v12. Let's start our setup:\r ```\r npm install -g serverless\r mkdir serverless-jam\r cd serverless-jam\r serverless create --template aws-nodejs\r ```",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^2.4.1"
+  }
+}
